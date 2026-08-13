@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Level, Question, TestAttempt, AdminCustomQuestion, UserAccount } from './types';
-import { DEFAULT_LEVELS } from './data/defaultLevels';
+import { DEFAULT_LEVELS } from './defaultLevels';
 import { generateTestQuestions } from './utils/questionGenerator';
 import { Navbar } from './components/Navbar';
 import { HomeView } from './components/HomeView';
