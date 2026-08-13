@@ -1,0 +1,7 @@
+{
+  "name": "Abacus Master",
+  "description": "Online Abacus Practice and Examination platform with multi-level testing, timed exams, interactive abacus tool, student tracking, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
