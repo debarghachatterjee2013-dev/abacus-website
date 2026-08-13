@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Level, Question, TestAttempt, AdminCustomQuestion, UserAccount } from './types';
 import { DEFAULT_LEVELS } from './defaultLevels';
-import { generateTestQuestions } from './utils/questionGenerator';
-import { Navbar } from './components/Navbar';
-import { HomeView } from './components/HomeView';
-import { LevelSelectView } from './components/LevelSelectView';
-import { TestView } from './components/TestView';
-import { ResultView } from './components/ResultView';
-import { AbacusSimulator } from './components/AbacusSimulator';
-import { StudentDashboardView } from './components/StudentDashboardView';
-import { AdminView } from './components/AdminView';
-import { AuthModal } from './components/AuthModal';
+import { generateTestQuestions } from './questionGenerator';
+import { Navbar } from './Navbar';
+import { HomeView } from './HomeView';
+import { LevelSelectView } from './LevelSelectView';
+import { TestView } from './TestView';
+import { ResultView } from './ResultView';
+import { AbacusSimulator } from './AbacusSimulator';
+import { StudentDashboardView } from './StudentDashboardView';
+import { AdminView } from './AdminView';
+import { AuthModal } from './AuthModal';
 import { ShieldCheck, Lock, ArrowRight } from 'lucide-react';
 
 export default function App() {
